@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-01-04T21:54:52.066522",
+  "player": "kalterKakao#Dizzy",
+  "champion": "Sett",
+  "result": null,
+  "stats": {
+    "kills": 0,
+    "deaths": 0,
+    "assists": 0,
+    "cs": 0,
+    "level": 2,
+    "gold": 106.25987243652344
+  },
+  "timeline": [
+    {
+      "game_time": 91.31866455078125,
+      "formatted_time": "01:31",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Doran's Blade"
+    },
+    {
+      "game_time": 91.31866455078125,
+      "formatted_time": "01:31",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Health Potion"
+    },
+    {
+      "game_time": 93.4310531616211,
+      "formatted_time": "01:33",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Stealth Ward"
+    },
+    {
+      "game_time": 125.05525970458984,
+      "formatted_time": "02:05",
+      "type": "\ud83c\udd99 LEVEL UP",
+      "details": "2"
+    }
+  ]
+}

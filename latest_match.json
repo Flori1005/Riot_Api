@@ -1,0 +1,117 @@
+{
+  "timestamp": "2026-01-04T21:17:05.511077",
+  "player": "kalterKakao#Dizzy",
+  "champion": "Kayle",
+  "stats": {
+    "kills": 0,
+    "deaths": 0,
+    "assists": 0,
+    "cs": 80,
+    "level": 7,
+    "gold": 78356.03125
+  },
+  "timeline": [
+    {
+      "game_time": 16.849346160888672,
+      "formatted_time": "00:16",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Doran's Ring"
+    },
+    {
+      "game_time": 16.849346160888672,
+      "formatted_time": "00:16",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Health Potion"
+    },
+    {
+      "game_time": 20.012771606445312,
+      "formatted_time": "00:20",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Doran's Blade"
+    },
+    {
+      "game_time": 20.012771606445312,
+      "formatted_time": "00:20",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Health Potion"
+    },
+    {
+      "game_time": 23.15637969970703,
+      "formatted_time": "00:23",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Stealth Ward"
+    },
+    {
+      "game_time": 42.810733795166016,
+      "formatted_time": "00:42",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Nashor's Tooth"
+    },
+    {
+      "game_time": 43.86382293701172,
+      "formatted_time": "00:43",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Berserker's Greaves"
+    },
+    {
+      "game_time": 45.966064453125,
+      "formatted_time": "00:45",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Rabadon's Deathcap"
+    },
+    {
+      "game_time": 47.00857162475586,
+      "formatted_time": "00:47",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Lich Bane"
+    },
+    {
+      "game_time": 54.42983627319336,
+      "formatted_time": "00:54",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Shadowflame"
+    },
+    {
+      "game_time": 55.49102020263672,
+      "formatted_time": "00:55",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Void Staff"
+    },
+    {
+      "game_time": 112.83306884765625,
+      "formatted_time": "01:52",
+      "type": "\ud83c\udd99 LEVEL UP",
+      "details": "2"
+    },
+    {
+      "game_time": 127.62212371826172,
+      "formatted_time": "02:07",
+      "type": "\ud83c\udd99 LEVEL UP",
+      "details": "3"
+    },
+    {
+      "game_time": 139.1637420654297,
+      "formatted_time": "02:19",
+      "type": "\ud83c\udd99 LEVEL UP",
+      "details": "4"
+    },
+    {
+      "game_time": 161.3016815185547,
+      "formatted_time": "02:41",
+      "type": "\ud83c\udd99 LEVEL UP",
+      "details": "5"
+    },
+    {
+      "game_time": 179.1770477294922,
+      "formatted_time": "02:59",
+      "type": "\ud83c\udd99 LEVEL UP",
+      "details": "6"
+    },
+    {
+      "game_time": 221.63253784179688,
+      "formatted_time": "03:41",
+      "type": "\ud83c\udd99 LEVEL UP",
+      "details": "7"
+    }
+  ]
+}

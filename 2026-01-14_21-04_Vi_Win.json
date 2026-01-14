@@ -1,0 +1,311 @@
+{
+  "type": "MatchSummary",
+  "timestamp": "2026-01-14T21:04:05.031664",
+  "player": "kalterKakao#Dizzy",
+  "champion": "Vi",
+  "result": "Win",
+  "stats": {
+    "kills": 5,
+    "deaths": 2,
+    "assists": 5,
+    "cs": 70,
+    "level": 12,
+    "gold": 955.767822265625
+  },
+  "timeline": [
+    {
+      "game_time": 21.10966682434082,
+      "formatted_time": "00:21",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Gustwalker Hatchling"
+    },
+    {
+      "game_time": 33.89421081542969,
+      "formatted_time": "00:33",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Glowing Mote"
+    },
+    {
+      "game_time": 33.89421081542969,
+      "formatted_time": "00:33",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Long Sword"
+    },
+    {
+      "game_time": 34.93605041503906,
+      "formatted_time": "00:34",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Long Sword"
+    },
+    {
+      "game_time": 39.17366409301758,
+      "formatted_time": "00:39",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Stealth Ward"
+    },
+    {
+      "game_time": 88.69049835205078,
+      "formatted_time": "01:28",
+      "type": "\ud83c\udd99 LEVEL UP",
+      "details": "4"
+    },
+    {
+      "game_time": 156.1343231201172,
+      "formatted_time": "02:36",
+      "type": "\ud83c\udd99 LEVEL UP",
+      "details": "5"
+    },
+    {
+      "game_time": 179.2983856201172,
+      "formatted_time": "02:59",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Caulfield's Warhammer"
+    },
+    {
+      "game_time": 179.2983856201172,
+      "formatted_time": "02:59",
+      "type": "\ud83d\udcb8 ITEM SOLD",
+      "details": "Glowing Mote"
+    },
+    {
+      "game_time": 179.2983856201172,
+      "formatted_time": "02:59",
+      "type": "\ud83d\udcb8 ITEM SOLD",
+      "details": "Long Sword"
+    },
+    {
+      "game_time": 180.3491973876953,
+      "formatted_time": "03:00",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Ruby Crystal"
+    },
+    {
+      "game_time": 206.67266845703125,
+      "formatted_time": "03:26",
+      "type": "\u2694\ufe0f KDA UPDATE",
+      "details": "1/0/0"
+    },
+    {
+      "game_time": 207.7492218017578,
+      "formatted_time": "03:27",
+      "type": "\ud83d\udc80 TEAMMATE DIED",
+      "details": "davidDERbarbar#8215 (1 deaths)"
+    },
+    {
+      "game_time": 223.6060333251953,
+      "formatted_time": "03:43",
+      "type": "\u2694\ufe0f KDA UPDATE",
+      "details": "1/0/1"
+    },
+    {
+      "game_time": 276.3724670410156,
+      "formatted_time": "04:36",
+      "type": "\ud83c\udd99 LEVEL UP",
+      "details": "6"
+    },
+    {
+      "game_time": 299.57989501953125,
+      "formatted_time": "04:59",
+      "type": "\ud83d\udc80 TEAMMATE DIED",
+      "details": "davidDERbarbar#8215 (2 deaths)"
+    },
+    {
+      "game_time": 315.47174072265625,
+      "formatted_time": "05:15",
+      "type": "\u2694\ufe0f KDA UPDATE",
+      "details": "2/0/1"
+    },
+    {
+      "game_time": 340.7516174316406,
+      "formatted_time": "05:40",
+      "type": "\ud83c\udd99 LEVEL UP",
+      "details": "7"
+    },
+    {
+      "game_time": 350.2236022949219,
+      "formatted_time": "05:50",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Sundered Sky"
+    },
+    {
+      "game_time": 350.2236022949219,
+      "formatted_time": "05:50",
+      "type": "\ud83d\udcb8 ITEM SOLD",
+      "details": "Caulfield's Warhammer"
+    },
+    {
+      "game_time": 350.2236022949219,
+      "formatted_time": "05:50",
+      "type": "\ud83d\udcb8 ITEM SOLD",
+      "details": "Long Sword"
+    },
+    {
+      "game_time": 350.2236022949219,
+      "formatted_time": "05:50",
+      "type": "\ud83d\udcb8 ITEM SOLD",
+      "details": "Ruby Crystal"
+    },
+    {
+      "game_time": 353.3806457519531,
+      "formatted_time": "05:53",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Pickaxe"
+    },
+    {
+      "game_time": 390.22674560546875,
+      "formatted_time": "06:30",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Slightly Magical Footwear"
+    },
+    {
+      "game_time": 402.8826904296875,
+      "formatted_time": "06:42",
+      "type": "\ud83c\udd99 LEVEL UP",
+      "details": "8"
+    },
+    {
+      "game_time": 456.7478942871094,
+      "formatted_time": "07:36",
+      "type": "\ud83c\udd99 LEVEL UP",
+      "details": "9"
+    },
+    {
+      "game_time": 470.4778747558594,
+      "formatted_time": "07:50",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Tunneler"
+    },
+    {
+      "game_time": 470.4778747558594,
+      "formatted_time": "07:50",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Ruby Crystal"
+    },
+    {
+      "game_time": 478.9352111816406,
+      "formatted_time": "07:58",
+      "type": "\ud83d\udc80 TEAMMATE DIED",
+      "details": "davidDERbarbar#8215 (3 deaths)"
+    },
+    {
+      "game_time": 532.75048828125,
+      "formatted_time": "08:52",
+      "type": "\ud83c\udd99 LEVEL UP",
+      "details": "10"
+    },
+    {
+      "game_time": 535.94580078125,
+      "formatted_time": "08:55",
+      "type": "\u2694\ufe0f KDA UPDATE",
+      "details": "3/0/1"
+    },
+    {
+      "game_time": 540.1905517578125,
+      "formatted_time": "09:00",
+      "type": "\u2694\ufe0f KDA UPDATE",
+      "details": "4/0/1"
+    },
+    {
+      "game_time": 541.2429809570312,
+      "formatted_time": "09:01",
+      "type": "\u2694\ufe0f KDA UPDATE",
+      "details": "4/0/2"
+    },
+    {
+      "game_time": 551.775390625,
+      "formatted_time": "09:11",
+      "type": "\u2694\ufe0f KDA UPDATE",
+      "details": "5/0/2"
+    },
+    {
+      "game_time": 568.64599609375,
+      "formatted_time": "09:28",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Sterak's Gage"
+    },
+    {
+      "game_time": 568.64599609375,
+      "formatted_time": "09:28",
+      "type": "\ud83d\udcb8 ITEM SOLD",
+      "details": "Pickaxe"
+    },
+    {
+      "game_time": 568.64599609375,
+      "formatted_time": "09:28",
+      "type": "\ud83d\udcb8 ITEM SOLD",
+      "details": "Tunneler"
+    },
+    {
+      "game_time": 568.64599609375,
+      "formatted_time": "09:28",
+      "type": "\ud83d\udcb8 ITEM SOLD",
+      "details": "Ruby Crystal"
+    },
+    {
+      "game_time": 569.7017211914062,
+      "formatted_time": "09:29",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Phage"
+    },
+    {
+      "game_time": 601.0510864257812,
+      "formatted_time": "10:01",
+      "type": "\ud83c\udd99 LEVEL UP",
+      "details": "11"
+    },
+    {
+      "game_time": 616.8485107421875,
+      "formatted_time": "10:16",
+      "type": "\u2694\ufe0f KDA UPDATE",
+      "details": "5/1/3"
+    },
+    {
+      "game_time": 620.0115966796875,
+      "formatted_time": "10:20",
+      "type": "\ud83d\udcb8 ITEM SOLD",
+      "details": "Phage"
+    },
+    {
+      "game_time": 625.306884765625,
+      "formatted_time": "10:25",
+      "type": "\ud83d\udc80 TEAMMATE DIED",
+      "details": "davidDERbarbar#8215 (4 deaths)"
+    },
+    {
+      "game_time": 630.6146850585938,
+      "formatted_time": "10:30",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Pickaxe"
+    },
+    {
+      "game_time": 632.7490234375,
+      "formatted_time": "10:32",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Cloak of Agility"
+    },
+    {
+      "game_time": 698.2549438476562,
+      "formatted_time": "11:38",
+      "type": "\ud83c\udd99 LEVEL UP",
+      "details": "12"
+    },
+    {
+      "game_time": 707.772216796875,
+      "formatted_time": "11:47",
+      "type": "\u2694\ufe0f KDA UPDATE",
+      "details": "5/1/4"
+    },
+    {
+      "game_time": 711.975830078125,
+      "formatted_time": "11:51",
+      "type": "\u2694\ufe0f KDA UPDATE",
+      "details": "5/1/5"
+    },
+    {
+      "game_time": 720.4622802734375,
+      "formatted_time": "12:00",
+      "type": "\u2694\ufe0f KDA UPDATE",
+      "details": "5/2/5"
+    }
+  ]
+}

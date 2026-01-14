@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-01-14T18:40:21.651281",
+  "player": "kalterKakao#Dizzy",
+  "champion": "Mordekaiser",
+  "result": "Win",
+  "stats": {
+    "kills": 0,
+    "deaths": 2,
+    "assists": 0,
+    "cs": 0,
+    "level": 1,
+    "gold": 211.58062744140625
+  },
+  "timeline": [
+    {
+      "game_time": 19.608840942382812,
+      "formatted_time": "00:19",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Stealth Ward"
+    },
+    {
+      "game_time": 24.923965454101562,
+      "formatted_time": "00:24",
+      "type": "\u2694\ufe0f KDA UPDATE",
+      "details": "0/1/0"
+    },
+    {
+      "game_time": 24.923965454101562,
+      "formatted_time": "00:24",
+      "type": "\ud83d\udc80 TEAMMATE DIED",
+      "details": "kalterKakao#Dizzy (1 deaths)"
+    },
+    {
+      "game_time": 88.64474487304688,
+      "formatted_time": "01:28",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Doran's Shield"
+    },
+    {
+      "game_time": 88.64474487304688,
+      "formatted_time": "01:28",
+      "type": "\ud83d\udcb0 ITEM BOUGHT",
+      "details": "Health Potion"
+    },
+    {
+      "game_time": 99.22274017333984,
+      "formatted_time": "01:39",
+      "type": "\u2694\ufe0f KDA UPDATE",
+      "details": "0/2/0"
+    },
+    {
+      "game_time": 99.22274017333984,
+      "formatted_time": "01:39",
+      "type": "\ud83d\udc80 TEAMMATE DIED",
+      "details": "kalterKakao#Dizzy (2 deaths)"
+    }
+  ]
+}
