@@ -14,8 +14,12 @@ except ImportError:
     sys.exit(1)
 
 def get_json_files():
-    """Returns a list of JSON files in the current directory, sorted by modification time (newest first)."""
-    json_files = glob.glob("*.json")
+    """Returns a list of JSON files in the matches directory, sorted by modification time (newest first)."""
+    # Create directory if it doesn't exist (just in case)
+    if not os.path.exists("matches"):
+        return []
+        
+    json_files = glob.glob("matches/*.json")
     if not json_files:
         return []
     

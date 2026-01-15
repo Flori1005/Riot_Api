@@ -2,6 +2,7 @@ import requests
 import time
 import warnings
 import sys
+import os
 import json
 from collections import Counter
 from datetime import datetime
@@ -135,9 +136,16 @@ class GameMonitor:
             # Sanitize filename just in case
             filename = "".join(c for c in filename if c.isalnum() or c in ('-', '_', '.')).strip()
             
-            with open(filename, "w", encoding="utf-8") as f:
+            # Ensure folder exists
+            output_dir = "matches"
+            if not os.path.exists(output_dir):
+                os.makedirs(output_dir)
+                
+            filepath = os.path.join(output_dir, filename)
+            
+            with open(filepath, "w", encoding="utf-8") as f:
                 json.dump(payload, f, indent=2)
-            print(f"💾 Saved match data to '{filename}'")
+            print(f"💾 Saved match data to '{filepath}'")
         except Exception as e:
             print(f"❌ Error saving to file: {e}")
 
@@ -154,7 +162,7 @@ class GameMonitor:
                 print(f"❌ Error sending to n8n: {e}")
         else:
             print("ℹ️ n8n URL not configured.")
-            print(f"   (Data is saved in '{filename}')")
+            print(f"   (Data is saved in '{filepath}')")
         # ------------------
 
     def trigger_death_webhook(self, name, deaths):
