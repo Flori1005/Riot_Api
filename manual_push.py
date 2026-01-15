@@ -13,27 +13,52 @@ except ImportError:
     print("   Please create 'config.py' with: N8N_WEBHOOK_URL = '...'")
     sys.exit(1)
 
-def find_latest_match_file():
-    """Finds the most recently modified match JSON file in the current directory."""
-    # Look for files matching the pattern *_*_*.json or latest_match.json
-    # We'll use a generic .json search but try to filter out obviously wrong ones if needed
+def get_json_files():
+    """Returns a list of JSON files in the current directory, sorted by modification time (newest first)."""
     json_files = glob.glob("*.json")
-    
     if not json_files:
-        return None
-        
-    # Exclude files that are definitely not match data if possible (e.g. package.json if it existed)
-    # For now, just sort by modification time
+        return []
     
-    latest_file = max(json_files, key=os.path.getmtime)
-    return latest_file
+    # Sort by mtime, newest first
+    json_files.sort(key=os.path.getmtime, reverse=True)
+    return json_files
+
+def format_timestamp(ts):
+    """Formats a timestamp into a readable string."""
+    return datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
+
+def select_file_interactive(files):
+    """Displays files and asks user to select one."""
+    print("\n📂 Found JSON files:")
+    for i, filename in enumerate(files, 1):
+        mtime = os.path.getmtime(filename)
+        size = os.path.getsize(filename)
+        print(f"  [{i}] {filename:<40} ({format_timestamp(mtime)}) - {size} bytes")
+    
+    print(f"  [q] Quit")
+    
+    while True:
+        choice = input("\n👉 Select a file number to push (or 'q' to quit): ").strip().lower()
+        
+        if choice == 'q':
+            print("Bye!")
+            sys.exit(0)
+            
+        try:
+            idx = int(choice) - 1
+            if 0 <= idx < len(files):
+                return files[idx]
+            else:
+                print("❌ Invalid number. Please try again.")
+        except ValueError:
+            print("❌ Invalid input. Please enter a number or 'q'.")
 
 def push_to_webhook(filename):
     if not N8N_WEBHOOK_URL:
         print("❌ Error: N8N_WEBHOOK_URL is not configured in config.py")
         sys.exit(1)
 
-    print(f"📄 Reading file: {filename}")
+    print(f"\n📄 Reading file: {filename}")
     
     try:
         with open(filename, 'r', encoding='utf-8') as f:
@@ -60,30 +85,28 @@ def push_to_webhook(filename):
         print(f"❌ Unexpected Error: {e}")
 
 def main():
-    print("="*40)
-    print("   MANUAL WEBHOOK PUSH")
-    print("="*40)
+    print("="*60)
+    print("   MANUAL WEBHOOK PUSH INTERFACE")
+    print("="*60)
 
     target_file = None
     
     # 1. Check command line arguments
     if len(sys.argv) > 1:
         target_file = sys.argv[1]
+        print(f"👉 Using file from argument: {target_file}")
     else:
-        # 2. Find latest file if no argument provided
-        print("🔍 No file specified. Looking for latest match file...")
-        latest = find_latest_match_file()
-        if latest:
-            print(f"👉 Found latest file: {latest}")
-            target_file = latest
-        else:
+        # 2. Interactive selection
+        files = get_json_files()
+        if not files:
             print("❌ No JSON files found in current directory.")
             sys.exit(1)
             
-    # 3. Confirmation (optional, but good for manual tools)
-    # We'll skip explicit confirmation for speed as requested "whenever I want"
-    
-    push_to_webhook(target_file)
+        target_file = select_file_interactive(files)
+            
+    # 3. Push
+    if target_file:
+        push_to_webhook(target_file)
 
 if __name__ == "__main__":
     main()
