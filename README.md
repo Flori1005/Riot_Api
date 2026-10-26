@@ -24,6 +24,16 @@ A playful combination of live game analytics and automation workflows, turning m
 * Running n8n instance with webhook
 * Discord integration (optional)
 
+## Configuration
+
+Set your n8n webhook URL as an environment variable before running the scripts — don't hardcode it in `config.py`:
+
+```bash
+export N8N_WEBHOOK_URL="http://your-n8n-host/webhook/your-id"
+```
+
+Match data saved to `matches/` is generated locally at runtime and is gitignored.
+
 ## How it works 
 
 1. The script polls the Riot API until a match starts.
